@@ -8,6 +8,8 @@ import random
 
 
 STAGE = "TEMPLATE" ## <<< change stage name 
+from main import ROOT
+
 
 logging.basicConfig(
     filename=os.path.join("logs", 'running_logs.log'), 
